@@ -75,7 +75,7 @@ FORCE_INLINE __m512i _mm512_div_epi16(__m512i a, __m512i b)
     res_m512i.vect_i128[0] = _mm_div_epi16(a.vect_i128[0], b.vect_i128[0]);
     res_m512i.vect_i128[1] = _mm_div_epi16(a.vect_i128[1], b.vect_i128[1]);
     res_m512i.vect_i128[2] = _mm_div_epi16(a.vect_i128[2], b.vect_i128[2]);
-    res_m512i.vect_i128[3] = _mm_div_epi16(a.vect_i128[3], b.vect_i128[3]);
+//    res_m512i.vect_i128[3] = _mm_div_epi16(a.vect_i128[3], b.vect_i128[3]);
     return res_m512i;
 }
 
